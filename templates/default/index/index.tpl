@@ -129,12 +129,12 @@
     <div>
         <!-- Do stuff menu  - start -->
         <!-- Need help mini menu  - start -->
-        <div class="floatRight">
+        <!--<div class="floatRight">
             <h2>{$LANG.need_help}</h2>
             <a href="">{$LANG.help_si_help} &gt;</a><br />
             <a href="http://www.simpleinvoices.org/forum">{$LANG.help_community_forums} &gt;</a><br />
             <a href="http://www.simpleinvoices.org/blog">{$LANG.help_blog} &gt;</a>
-        </div>
+        </div>-->
         <!-- Need help mini menu  - end -->
         <h2>{$LANG.start_reservation}</h2>
         <table class="buttons" >
@@ -152,7 +152,72 @@
             </a>
         </td>
         </tr>
-        </table><br /><br />
+        </table><br />
+        
+          <h2>{$LANG.search}</h2>
+        <table class="buttons" >
+        <tr>
+            <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.by_date}
+            </a>
+        </td>
+        <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.by_month}
+            </a>
+        </td>
+         <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.by_name}
+            </a>
+        </td>
+        
+        </tr>
+        </table><br />
+        
+          <h2>{$LANG.booking}</h2>
+        <table class="buttons" >
+        <tr>
+            <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.by_date_book}
+            </a>
+        </td>
+        <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.by_month_book}
+            </a>
+        </td>
+          <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.by_all_book}
+            </a>
+        </td>
+        </tr>
+        </table><br />
+        
+         <h2>{$LANG.trash}</h2>
+        <table class="buttons" >
+        <tr>
+            <td>
+            <a href="#" class="">
+            <img src="./images/common/add.png" alt=""/>
+            {$LANG.trash_f}
+            </a>
+        </td>
+              
+        </tr>
+        </table><br />
+        
+        
+        
         <h2>{$LANG.start_working}</h2>
         <table class="buttons">
         <tr>

@@ -12,7 +12,7 @@
 {/if}
 	<div id="Dialog">
 		<center>
-            <h1><img src="images/logo.jpg" alt="Shagun Billing" /></h1>
+            <h1><img src="images/logo.jpg" alt="Shagun Billing" /> test chk</h1>
 		<form action="" method="post" id="frmLogin" name="frmLogin">
 	        <input type="hidden" name="action" value="login" />
 		<dl>

@@ -25,7 +25,7 @@
 	{/if}	
 <form name="frmpost" action="index.php?module=customers&amp;view=add" method="post" id="frmpost" onsubmit="return checkForm(this);">
 <br />
-<div style="float:left; font-size:18px; margin-bottom:30px; text-align:center; color:#069;  width:100%;">{$LANG.check_a}</div>
+<div style="float:left; font-size:18px; margin-bottom:30px; text-align:center; color:#069;  width:100%;">{$LANG.search_dt}</div>
 <table align="center">
 	<tr>
 		<td class="details_screen">{$LANG.enter_d}
@@ -76,7 +76,7 @@
         <td>
             <button type="submit" class="positive" name="id" value="{$LANG.save}">
                 <img class="button_img" src="./images/common/tick.png" alt="" /> 
-                {$LANG.check_a}
+                {$LANG.search}
             </button>
 		</td>
 		

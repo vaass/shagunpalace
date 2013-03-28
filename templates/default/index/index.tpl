@@ -158,13 +158,13 @@
         <table class="buttons" >
         <tr>
             <td>
-            <a href="#" class="">
+            <a href="./index.php?module=customers&view=by_date" class="">
             <img src="./images/common/add.png" alt=""/>
             {$LANG.by_date}
             </a>
         </td>
         <td>
-            <a href="#" class="">
+            <a href="./index.php?module=customers&view=by_month" class="">
             <img src="./images/common/add.png" alt=""/>
             {$LANG.by_month}
             </a>
